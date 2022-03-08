@@ -1,0 +1,15 @@
+.todo-list {
+   /*center list, give border*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    /*inside border is blue with white text*/
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(111, 111, 240);
+    margin: auto;
+    inline-size: 150px;
+    overflow-wrap: break-word;
+}
